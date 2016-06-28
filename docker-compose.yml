@@ -1,0 +1,11 @@
+version: '2'
+services:
+  spark:
+    image: markwatsonatx/spark-notebook:2.0.0-preview    
+    volumes:
+      - ./data:/usr/data
+      - ./notebooks:/usr/notebooks
+    ports:
+      - "37077:7077"
+      - "38088:8088"
+      - "38889:8889"
