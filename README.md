@@ -13,3 +13,7 @@ docker-compose up -d
 After running `docker-compose up -d` you can access the sample notebook at [http://DOCKER-HOST-IP:38889/notebooks/WordCount.ipynb](http://localhost:38889/notebooks/WordCount.ipynb).
 
 You can learn more by watching the YouTube video [here](https://youtu.be/zy9JB7sxjGs).
+
+####Prefer Scala?
+
+Check out the Scala version here: https://github.com/markwatsonatx/tutorial-spark-notebook-wordcount-scala
