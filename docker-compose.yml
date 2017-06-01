@@ -6,6 +6,4 @@ services:
       - ./data:/usr/data
       - ./notebooks:/usr/notebooks
     ports:
-      - "37077:7077"
-      - "38088:8088"
       - "38889:8889"
