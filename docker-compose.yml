@@ -7,3 +7,6 @@ services:
       - ./notebooks:/usr/notebooks
     ports:
       - "38889:8889"
+    labels:
+      - "com.exampleup.proxy.name.38889:Notebook"
+      - "com.exampleup.proxy.path.38889:/WordCount.ipynb"
