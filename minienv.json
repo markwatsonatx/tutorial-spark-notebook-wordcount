@@ -1,0 +1,15 @@
+{
+  "editor" : {
+    "hide": false 
+  },
+  "proxy": {
+    "ports": [
+      {
+        "port": 38888,
+        "hide": false,
+        "name": "Jupyter",
+        "path": "/notebooks/WordCount.ipynb"
+      }
+    ]
+  }
+}
