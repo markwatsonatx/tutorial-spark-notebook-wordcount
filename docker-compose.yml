@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 services:
   spark:
     image: markwatsonatx/spark-notebook:2.1.1    
@@ -7,6 +7,3 @@ services:
       - ./notebooks:/usr/notebooks
     ports:
       - "38889:8889"
-    labels:
-      - "com.exampleup.proxy.name.38889:Notebook"
-      - "com.exampleup.proxy.path.38889:/notebooks/WordCount.ipynb"

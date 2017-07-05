@@ -5,7 +5,7 @@
   "proxy": {
     "ports": [
       {
-        "port": 38889,
+        "port": 38888,
         "hide": false,
         "name": "Jupyter",
         "path": "/notebooks/WordCount.ipynb"
