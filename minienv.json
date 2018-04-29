@@ -7,7 +7,7 @@
       {
         "port": 38889,
         "hide": false,
-        "name": "Jupyter",
+        "name": "Notebook",
         "path": "/notebooks/WordCount.ipynb"
       }
     ]
